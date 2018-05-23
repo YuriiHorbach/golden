@@ -1,0 +1,178 @@
+@import url(reset.css);
+body{
+	font-family: Arial, sans-serif;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+header{
+	background: url(../img/first-bg.jpg) no-repeat center top/cover;
+	padding-bottom: 160px;
+}
+
+.container{
+	width: 940px;
+	margin:0 auto ;
+}
+
+.heading{
+	overflow: hidden;
+}
+
+/*.clearfix:after{
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+*/
+.logo{
+	margin: 44px 0 0 0;
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 54px;
+}
+
+.menu{
+	display: block;
+
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 43px;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;	
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titles_first{
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 202px;
+}
+
+h1{
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 37px;
+}
+
+.button{
+	background: #fed136;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	margin-top: 47px;
+}
+
+/*2-03-42*/
+
+.title{
+	padding-top: 120px;
+}
+
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: #222222;
+}
+
+.title p{
+	font-size: 16px;
+	text-align: center;
+	text-transform: none;
+	color: #777777;
+	margin-top: 24px;
+}
+
+#services{
+	padding-bottom: 120px;
+}
+
+.services{
+	overflow: hidden;
+	margin-top:80px;
+}
+
+.services_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+	margin-right: 16px;
+}
+
+.services_item h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	margin-bottom: 5px;
+}
+
+.services_item p{
+	font-style: 14px;
+	color: #777;
+	line-height: 1.55;
+}
+
+
+.services_item:nth-child(2){
+	margin-left: 52px;
+}
+
+
+.services_item:last-child{
+	float: right;
+	margin-right: 0;
+}
+
+#portfolio{
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+
+.works{
+	overflow: hidden;
+	margin-top: 77px;
+}
+
+.works img{
+	float: left;
+}
+
+.works img:nth-child(2){
+	margin-left:33px;
+}
+
+.works img:last-child{
+	float: right;
+	margin-right: 0;
+}
+2-32
+
+
+
+
